@@ -1,8 +1,16 @@
 aid: aumet
 name: Aumet
-description: Aumet is a company surfaced as a portfolio company of 500-global, techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Aumet is a MENA-based healthtech company building an AI-first procurement and
+  pharmacy operating system for healthcare. Its platform connects pharmaceutical
+  manufacturers, distributors, and pharmacies through a B2B marketplace and a suite
+  of pharmacy software: Pulse (point-of-sale, inventory, and smart reordering for
+  individual pharmacies), Chain (multi-branch pharmacy management), and Enterprise
+  (solutions for government health systems and hospitals). The platform adds
+  AI-powered demand forecasting, procurement automation, price transparency, and
+  analytics, and reports serving 12,000+ pharmacies and 1,000+ suppliers across
+  Jordan, Egypt, and Saudi Arabia with over $1B in gross merchandise value and
+  millions of transactions annually. Aumet is backed by 500 Global and Techstars.
 url: https://raw.githubusercontent.com/api-evangelist/aumet/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +19,32 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://aumet.com/wp-content/uploads/2026/04/Aumet-White-Logo.png
 tags:
 - Company
+- Healthcare
+- Pharmacy
+- Pharmaceutical
+- Procurement
+- Marketplace
+- Supply Chain
+- Healthtech
+- ERP
+- MENA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,26 @@ maintainers:
 common:
 - type: Website
   url: https://aumet.com
+- type: About
+  url: https://aumet.com/en/about-us/
+- type: Blog
+  url: https://aumet.com/en/blog/
+- type: Pricing
+  url: https://aumet.com/en/pricing/
+- type: SignUp
+  url: https://pulse.aumet.com/login/create-account
+- type: Login
+  url: https://pulse.aumet.com/login
+- type: Support
+  url: https://aumet.com/en/contact-us/
+- type: TermsOfService
+  url: https://aumet.com/en/terms-conditions-en/
+- type: PrivacyPolicy
+  url: https://aumet.com/en/privacy-policy-en/
+- type: DomainSecurity
+  url: security/aumet-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
